@@ -1,0 +1,48 @@
+/** @format */
+
+.banner {
+	height: 50vh;
+	position: relative;
+	background: url("../src/image/blog-4.jpg")
+		center center no-repeat;
+        object-fit: fill;
+    margin-right: 10px ;
+}
+
+.banner__info{
+    background-color:black ;
+    color: white;
+    width: 300px;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:40px;
+}.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner__info>button{
+    background-color:yellow ;
+    color: blanchedalmond;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.banner__info>button{
+    background-color:white ;
+    color: #ff7779;
+
+
+}
+.banner__info>h5{
+    margin-top: 10px;
+}
